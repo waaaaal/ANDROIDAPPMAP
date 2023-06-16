@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- esto añade un icono de busqueda y titulo a la derecha  <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom" /> -->
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Inicio"
+        app:showAsAction="never"
+        android:onClick="openInicioActivity"/>
+
+    <item
+        android:id="@+id/menu_formulario"
+        android:title="Formulario"
+        app:showAsAction="never"
+        android:onClick="openSettingsActivity" />
+
+    <item
+        android:id="@+id/wq"
+        android:title="MAPAGoogle"
+        android:onClick="formularioitem"/>
+
+    <item
+        android:id="@+id/wqqq"
+        android:title="Pantalla resultados"
+        android:onClick="openRegisterActivity" />
+    <item android:title="About"
+        android:onClick="openaboutActivity"/>
+
+</menu>
